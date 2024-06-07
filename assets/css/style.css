@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(28, 213, 148);
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+aside {
+  width: 20%;
+  padding: 8px 12px;
+  background-color: rgb(28, 213, 148);
+  text-align: justify;
+  border-radius: 15px;
+  color: white;
+}
+
+img {
+  width: 300px;
+  border-radius: 15px;
+  float: left;
+  margin: 0.5rem;
+}
+
+.content {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: justify;
+  color: white;
+  width: 70%;
+  background-color: rgb(28, 213, 148);
+  border-radius: 15px;
+}
+
+.article-left {
+  margin: 1rem;
+}
+
+.clear {
+  clear: left;
+}
+
+.framework-title {
+  font-size: 2rem;
+}
+
+.framework-description {
+  margin: 10px 30px;
+  font-size: 1.2rem;
+}
